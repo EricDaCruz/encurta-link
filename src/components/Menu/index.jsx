@@ -1,5 +1,5 @@
 import "./Menu.css"
-import { BsYoutube, BsInstagram } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 
 const Menu = () => {
