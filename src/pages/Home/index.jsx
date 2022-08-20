@@ -2,6 +2,8 @@ import {useState} from 'react';
 import { FiLink } from 'react-icons/fi'
 import './home.css'
 
+import Logo from '../../img/logo.png'
+
 import Menu from '../../components/Menu'
 import LinkItem from '../../components/LinkItem'
 
@@ -40,7 +42,7 @@ const Home = () => {
   return ( 
     <div className="container-home">
       <div className="logo">
-          <img src="img/logo.png" alt="logo ecurtalink"/>
+          <img src={Logo} alt="logo ecurtalink"/>
           <h1>EncurtaLink</h1>
           <span>Cole seu link para encurtar</span>
       </div>
